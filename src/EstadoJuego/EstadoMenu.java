@@ -45,7 +45,7 @@ public class EstadoMenu extends EstadoJuego{
     }
 
     public void reproducirMusica(){
-        this.mp3player=new MP3Player(this.getClass().getResource("..\\Assets\\Music\\bgmusicodl.mp3"));
+        this.mp3player=new MP3Player(this.getClass().getResource("/Assets/Music/bgmusicodl.mp3"));
         this.mp3player.play();
         this.mp3player.setRepeat(true);
         
